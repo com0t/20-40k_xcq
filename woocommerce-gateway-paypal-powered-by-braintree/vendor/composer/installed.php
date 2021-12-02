@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'pretty_version' => 'dev-trunk',
+        'version' => 'dev-trunk',
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'reference' => '0139998a60a7e682cbc751d55ea24bd227063b41',
+        'name' => '__root__',
+        'dev' => false,
+    ),
+    'versions' => array(
+        '__root__' => array(
+            'pretty_version' => 'dev-trunk',
+            'version' => 'dev-trunk',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'reference' => '0139998a60a7e682cbc751d55ea24bd227063b41',
+            'dev_requirement' => false,
+        ),
+        'braintree/braintree_php' => array(
+            'pretty_version' => '3.34.0',
+            'version' => '3.34.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../braintree/braintree_php',
+            'aliases' => array(),
+            'reference' => 'fd55c466d0d0088c67705d7ba0b3876d9767bfda',
+            'dev_requirement' => false,
+        ),
+        'skyverge/wc-plugin-framework' => array(
+            'pretty_version' => '5.10.7',
+            'version' => '5.10.7.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../skyverge/wc-plugin-framework',
+            'aliases' => array(),
+            'reference' => '3a2c8cb4af31bd2c5e1af38647c249c37575db2c',
+            'dev_requirement' => false,
+        ),
+    ),
+);
